@@ -1,0 +1,20 @@
+.board{
+	position: relative;
+	width: 450px;
+	height: 450px;
+	margin: auto;
+	top: 100px;
+	background-color: blue;
+	z-index: 0;
+}
+
+.coord{
+	top:2px;
+	display: inline-flex;
+	margin: -3px -2px -3px -2px;
+	position: relative;
+	width: 150px;
+	height: 150px;
+	border: 2px solid black;
+	z-index: 50;
+}

@@ -5,7 +5,7 @@ var TicTacToeBot = angular.module('TicTacToeBot', ['ngRoute']);
 TicTacToeBot.config(function($routeProvider){
 
 	//TicTacToeBot
-		$routeProvider.when('/index', {
+		$routeProvider.when('/', {
 		templateUrl : 'views/TicTacToeBot.html',
 		controller  : 'TicTacToeBotCtrl'
 		});
